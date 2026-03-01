@@ -21,7 +21,6 @@ KB_ID = os.getenv("KNOWLEDGE_BASE_ID") # Add this to your DO Env Vars
 # Global Gradient Client
 client = Gradient(
     access_token=GRADIENT_TOKEN,
-    workspace_id=WORKSPACE_ID
 )
 
 # Shared Agent Client for chat
